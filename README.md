@@ -5,7 +5,7 @@ A Job Search Web Application written in Php using  CodeIgniter Framework
 Sreelal C
 
 <h2> License </h2>
-Online-Job-Portal - A web application built on PHP HTML & javascript</br>
+
 Copyright (C) 2016  Sreelal C
 
     This program is free software: you can redistribute it and/or modify
