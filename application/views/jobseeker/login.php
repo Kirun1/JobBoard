@@ -7,16 +7,16 @@
 			<h2>My Account</h2>
 			<nav id="breadcrumbs">
 				<ul>
-					<li>You are here:</li>
-					<li><a href="#">Home</a></li>
-					<li>My Account</li>
+					<li><a href="<?= base_url() ; ?>">Home</a></li>
+					<li><a href="<?= base_url('jobseeker') ; ?>">Job Seeker</a></li>
+					<li><a href="<?= base_url('jobseeker/login') ; ?>">Login</a></li>
 				</ul>
 			</nav>
 		</div>
 
 	</div>
-</div>
-<div class="sixteen columns Container" style="background-color: red; color: white;">
+
+	<div class="sixteen columns Container" style="background-color: #9e351f; color: white; padding:10px; margin-left: 10%; margin-right: 10%;">
 		<?php if (validation_errors()) : ?>
 			<div class="col-md-12">
 				<div class="alert alert-danger" role="alert">
@@ -31,6 +31,9 @@
 				</div>
 			</div>
 		<?php endif; ?>
+</div>
+
+
 </div>
 
 <!-- Content

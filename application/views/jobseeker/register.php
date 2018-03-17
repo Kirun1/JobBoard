@@ -18,7 +18,7 @@
 
 	</div>	
 
-	<div class="sixteen columns"  style="background-color: #9e351f; color: white; padding-left: 10px; padding-right: 10px; margin-left: 10%; margin-right: 10%;">
+	<div class="sixteen columns"  style="background-color: #9e351f; color: white; padding: 10px; margin-left: 10%; margin-right: 10%;">
 		<?php if (validation_errors()) : ?>
 			<div class="col-md-12">
 				<div class="alert alert-danger" role="alert">

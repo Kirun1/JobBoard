@@ -43,7 +43,7 @@
 		<nav id="navigation" class="menu">
 			<ul id="responsive">
 
-				<li><a href="index.html" id="current">Home</a>
+				<li><a href="<?= base_url() ?>" id="current">Home</a>
 					<ul>
 						<li><a href="index.html">Home #1</a></li>
 						<li><a href="index-2.html">Home #2</a></li>
