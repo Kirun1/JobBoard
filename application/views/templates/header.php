@@ -36,7 +36,7 @@
 	
 		<!-- Logo -->
 		<div id="logo">
-			<h1><a href="index.html"><img src="<?php echo base_url("assets/images/logo.png")?>" alt="Job Board" /></a></h1>
+			<h1><a href="index.html"><img src="<?php echo base_url("assets/images/logo-01.png")?>" alt="Job Board" /></a></h1>
 		</div>
 
 		<!-- Menu -->

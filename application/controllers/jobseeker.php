@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class jobseeker extends CI_Controller {
+class Jobseeker extends CI_Controller {
 
 	public function __construct() {
 		
@@ -109,7 +109,7 @@ class jobseeker extends CI_Controller {
 				
 				// user login ok
 				$this->load->view('templates/header');
-				$this->load->view('jobseeker/homepage', $data);
+				$this->load->view('jobseeker/home', $data);
 				$this->load->view('templates/footer');
 				
 			} else {
