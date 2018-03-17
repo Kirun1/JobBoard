@@ -17,9 +17,8 @@
 		</div>
 
 	</div>	
-</div>
 
-<div class="sixteen columns Container" style="background-color: red; color: white;">
+	<div class="sixteen columns"  style="background-color: #9e351f; color: white; padding-left: 10px; padding-right: 10px; margin-left: 10%; margin-right: 10%;">
 		<?php if (validation_errors()) : ?>
 			<div class="col-md-12">
 				<div class="alert alert-danger" role="alert">
@@ -35,6 +34,9 @@
 			</div>
 		<?php endif; ?>
 </div>
+
+</div> <!-- titlebar -->
+
 <!-- Content
 ================================================== -->
 
