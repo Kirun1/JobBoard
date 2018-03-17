@@ -15,7 +15,7 @@
 <!-- CSS
 ================================================== -->
 <link rel="stylesheet" href="<?php echo base_url("assets/css/style.css");?>">
-<link rel="stylesheet" href="<?php echo base_url("assets/css/colors/orange.css");?>" id="colors">
+<link rel="stylesheet" href="<?php echo base_url("assets/css/colors/purple.css");?>" id="colors">
 <link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/font-awesome.css") ?>">
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>

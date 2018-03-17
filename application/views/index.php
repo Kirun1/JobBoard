@@ -3,7 +3,7 @@
 
 <!-- Banner
 ================================================== -->
-<div id="banner" style="background: url(images/banner-home-01.jpg)">
+<div id="banner" style="background: url(<?php echo base_url("assets/images/banner-1.jpg"); ?> ); ">
 	<div class="container">
 		<div class="sixteen columns">
 			
@@ -208,12 +208,12 @@
 
 
 <!-- Testimonials -->
-<div id="testimonials">
+<div id="testimonials" style="background: url(<?php echo base_url("assets/images/banner-2.jpg"); ?> ); ">
 	<!-- Slider -->
 	<div class="container">
 		<div class="sixteen columns">
-			<div class="testimonials-slider">
-				  <ul class="slides">
+			<div class="testimonials-slider" >
+				  <ul class="slides" >
 				    <li>
 				      <p>I have already heard back about the internship I applied through Job Finder, that's the fastest job reply I've ever gotten and it's so much better than waiting weeks to hear back.
 				      <span>Collis Ta’eed, Envato</span></p>

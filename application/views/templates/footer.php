@@ -8,8 +8,8 @@
 
 		<div class="seven columns">
 			<h4>About</h4>
-			<p>Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.</p>
-			<a href="#" class="button">Get Started</a>
+			<p>JobBoard enables you to search jobs posted on thousands of websites. Employers also post jobs directly on JobBoard. No matter where a job is posted, it will be easy to find when you use JobBoard.</p>
+			<a href="#" class="button">Contact Us</a>
 		</div>
 
 		<div class="three columns">
