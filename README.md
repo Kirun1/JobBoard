@@ -1,5 +1,5 @@
 # JobBoard
-A Job Search Web Application written in Php using  CodeIgniter Framework
+A Job Search (Online Job Portal) Web Application written in Php using  CodeIgniter Framework
 
 <h3>Author:</h3> 
 Sreelal C
