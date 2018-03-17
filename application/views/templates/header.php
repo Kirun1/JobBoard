@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="<?php echo base_url("assets/css/style.css");?>">
 <link rel="stylesheet" href="<?php echo base_url("assets/css/colors/purple.css");?>" id="colors">
 <link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/font-awesome.css") ?>">
+
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -86,8 +87,8 @@
 
 
 			<ul class="float-right">
-				<li><a href="my-account.html#tab2"><i class="fa fa-user"></i> Sign Up</a></li>
-				<li><a href="my-account.html"><i class="fa fa-lock"></i> Log In</a></li>
+				<li><a href="<?= base_url('jobseeker/register') ?>"><i class="fa fa-user"></i> Sign Up</a></li>
+				<li><a href="<?= base_url('jobseeker/login') ?>"><i class="fa fa-lock"></i> Log In</a></li>
 			</ul>
 
 		</nav>
