@@ -1,3 +1,4 @@
+
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
@@ -11,10 +12,21 @@ class Jobseeker extends CI_Controller {
 		$this->load->model('user_model');
 	}
 
-	public function index()
-	{
-		$this->load->view('welcome_message');
+	public function index($data=0)
+	{	
+		if(isset($_SESSION['user_id']) && isset($_SESSION['username'])){
+				$this->load->view('templates/header');
+				$this->load->view('jobseeker/home', $data);
+				$this->load->view('templates/footer');
+		}
+		else {
+				$this->load->view('templates/header');
+				$this->load->view('jobseeker/login');
+				$this->load->view('templates/footer');
+		}
+		
 	}
+
 
 	public function register()
 	{	// create the data object
@@ -109,9 +121,8 @@ class Jobseeker extends CI_Controller {
 				//$_SESSION['is_admin']     = (bool)$user->is_admin;
 				
 				// user login ok
-				$this->load->view('templates/header');
-				$this->load->view('jobseeker/home', $data);
-				$this->load->view('templates/footer');
+				//$this->index($data);
+				redirect('jobseeker');
 				
 			} else {
 				
@@ -124,6 +135,40 @@ class Jobseeker extends CI_Controller {
 				$this->load->view('templates/footer');
 				
 			}
+			
+		}
+		
+	}
+
+	/**
+	 * logout function.
+	 * 
+	 * @access public
+	 * @return void
+	 */
+	public function logout() {
+		$this->load->library('form_validation');
+		// create the data object
+		$data = new stdClass();
+		
+		if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
+			
+			// remove session datas
+			foreach ($_SESSION as $key => $value) {
+				unset($_SESSION[$key]);
+			}
+
+			$data->error = 'Successfully Loged out. Log back in!';
+			// user logout ok
+			$this->load->view('templates/header');
+			$this->load->view('jobseeker/login', $data);
+			$this->load->view('templates/footer');
+			
+		} else {
+			
+			// there user was not logged in, we cannot logged him out,
+			// redirect him to site root
+			redirect('jobseeker/login');
 			
 		}
 		

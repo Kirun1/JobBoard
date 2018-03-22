@@ -37,43 +37,13 @@ $ci->load->helper('url');
 
    <!-- favicons
 	================================================== -->
-	<link rel="icon" type="image/png" href="https://www.styleshout.com/templates/preview/JobBoard10/favicon.png">
+	<link rel="icon" type="image/png" href="">
 
 </head>
 
 <body>
 
-	<!-- header 
-   ================================================== -->
-   <header class="main-header">
-   	<div class="row">
-   		<div class="logo">
-	         <a href="https://www.styleshout.com/templates/preview/JobBoard10/index.html">JobBoard</a>
-	      </div>   		
-   	</div>   
-
-   	<a class="menu-toggle" href="#"><span>Menu</span></a>	
-   </header> <!-- /header -->
-
-   <!-- navigation 
-   ================================================== -->
-   <nav id="menu-nav-wrap">
-
-   	<h5>Site Pages</h5>   	
-		<ul class="nav-list">
-			<li><a href="#" title="">Home</a></li>
-			<li><a href="#" title="">Job Seekers</a></li>
-			<li><a href="#" title="">Company</a></li>
-			<li><a href="#" title="">Jobs</a></li>
-			<li><a href="#" title="">Blog</a></li>					
-			<li><a href="#" title="">Contact</a></li>					
-		</ul>
-
-		<h5>About Jobboard</h5>  
-		<p>JobBoard enables you to search jobs posted on thousands of websites. Employers also post jobs directly on JobBoard. No matter where a job is posted, it will be easy to find when you use JobBoard.</p>
-
-	</nav>
-
+  
 	<!-- main content
    ================================================== -->
    <main id="main-404-content" class="main-content-particle-js"><canvas class="pg-canvas" style="display: block;" width="1920" height="943"></canvas>
@@ -100,22 +70,11 @@ $ci->load->helper('url');
 
 		   <footer>
 		   	<div class="row">
-
-		   		<div class="col-seven tab-full social-links pull-right">
-			   		<ul>
-				   		<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-					      <li><a href="#"><i class="fa fa-behance"></i></a></li>
-					      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-					      <li><a href="#"><i class="fa fa-instagram"></i></a></li>   			
-				   	</ul>
-			   	</div>
 		   			
 		  			<div class="col-five tab-full bottom-links">
 			   		<ul class="links">
 				   		<li><a href="<?php echo base_url(); ?>">Homepage</a></li>		                    
 				   	</ul>
-
 				   	<div class="credits">
 				   		<p>&copy <?php echo date('Y');  ?> All Rights Reserved With JobBoard</p>
 				   	</div>

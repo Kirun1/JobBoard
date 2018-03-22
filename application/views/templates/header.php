@@ -87,8 +87,18 @@
 
 
 			<ul class="float-right">
+				<?php
+				if(isset($_SESSION['user_id']) && isset($_SESSION['username'])){ 
+					?>
+					<li><a href="<?= base_url('jobseeker/logout') ?>"><i class="fa fa-sign-out"></i> Logout</a></li>
+					<?php
+				}
+				else {
+				?>
 				<li><a href="<?= base_url('jobseeker/register') ?>"><i class="fa fa-user"></i> Sign Up</a></li>
 				<li><a href="<?= base_url('jobseeker/login') ?>"><i class="fa fa-lock"></i> Log In</a></li>
+				<?php
+			} ?>
 			</ul>
 
 		</nav>

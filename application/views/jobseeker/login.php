@@ -31,7 +31,7 @@
 				</div>
 			</div>
 		<?php endif; ?>
-</div>
+	</div>
 
 
 </div>
@@ -46,8 +46,8 @@
 
 		<ul class="tabs-nav">
 			<li class="active"><a href="#tab1">Login</a></li>
-				<li><a href="<?= base_url('jobseeker/register'); ?>">Register</a></li>
-			</ul>
+			<li><a href="<?= base_url('jobseeker/register'); ?>">Register</a></li>
+		</ul>
 
 			<div class="tabs-container">
 				<!-- Login -->
